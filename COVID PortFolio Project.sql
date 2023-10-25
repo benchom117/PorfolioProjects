@@ -1,5 +1,5 @@
 --Covid 19 Data Exploration (from 2020-02-24 to 2021-04-30)
---Skills used: Joins, CTE´s, Tem Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+--Skills used: Joins, CTEÂ´s, Tem Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 
 
@@ -44,7 +44,7 @@ WHERE continent IS NOT NULL
 GROUP BY location, population
 ORDER BY PercentPopulationInfected desc
 
---let´s break things down by continent
+--letÂ´s break things down by continent
 
 
 --Showing continents with the highest count per population
